@@ -168,7 +168,6 @@ export const testnets = {
 };
 
 // Logos
-
 let chainLogos = {
   // Arbitrum Mainnet
   42161: "https://arbiscan.io/images/svg/brands/arbitrum.svg?v=1.5",
