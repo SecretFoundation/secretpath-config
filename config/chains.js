@@ -70,7 +70,22 @@ export const mainnets = {
     currency: "METIS",
     explorerUrl: "https://1088.routescan.io",
     rpcUrl: "https://andromeda.metis.io",
+  
   },
+  XDCMainnet: {
+    chainId: 50,
+    name: "XinFin Network Mainnet",
+    currency: "XDC",
+    explorerUrl: "https://explorer.xinfin.network/",
+    rpcUrl: "https://rpc.xinfin.network",
+  },
+  NearAuroraMainnet: {
+    chainId: 1313161554,
+    name: "Aurora Mainnet",
+    currency: "ETH",
+    explorerUrl: "https://explorer.mainnet.aurora.dev/",
+    rpcUrl: "https://mainnet.aurora.dev",
+  }
 };
 // Testnet configurations
 export const testnets = {
@@ -165,6 +180,13 @@ export const testnets = {
     explorerUrl: "https://sepolia-blockscout.lisk.com",
     rpcUrl: "https://rpc.lisk-sepolia-testnet.gelato.digital",
   },
+  FhenixTestnet: {
+    chainId: 42069,
+    name: "Fhenix Frontier",
+    currency: "tFHE",
+    explorerUrl: "https://explorer.testnet.fhenix.zone/",
+    rpcUrl: "https://api.testnet.fhenix.zone:7747/",
+  },
 };
 
 // Logos
@@ -223,4 +245,7 @@ let chainLogos = {
 
   //Lisk Sepolia
   4202: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRan6D0dfiYmx2sv4kUPsFkfUDxYUWEuuA_dLJWgPm8Q&s",
+
+    // Fhenix Testnet
+    42069: "https://media.licdn.com/dms/image/D4D0BAQFtUjFKqv_DJA/company-logo_200_200/0/1695715998703/fhenix_logo?e=2147483647&v=beta&t=U2cvAqKuWeEqE5Cb4HgyuBmVTUcBuZvsDi0JdivU3nw",
 };
