@@ -74,7 +74,7 @@ export const mainnets = {
   },
   XDCMainnet: {
     chainId: 50,
-    name: "XinFin Network Mainnet",
+    name: "XDC Mainnet",
     currency: "XDC",
     explorerUrl: "https://explorer.xinfin.network/",
     rpcUrl: "https://rpc.xinfin.network",
@@ -239,6 +239,9 @@ let chainLogos = {
 
   // Linea Testnet
   59141: "https://lineascan.build/images/svg/brands/main.svg?v=24.4.2.0",
+
+   // XDC Mainnet
+   50: "https://miro.medium.com/v2/resize:fit:1200/1*CyR7XMIw_iMEGKsA_MoxwA.png",
 
   // XDC Apothem
   51: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe2KDAtPElT99WYln7tyeQPlPCiBWaRfRA_guAL0HImJWBcRympM_r5VBSiOR29zFpKIU&usqp=CAU",
