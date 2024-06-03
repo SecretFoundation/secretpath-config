@@ -47,4 +47,6 @@ export const testnet = {
     "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
     publicClientAddressFhenixFrontierTestnet:
     "0x59D8C9591dB7179c5d592c5bCD42694021885aFC",
+    publicClientAddressKakarotTestnet:
+    "0x874303B788c8A13a39EFA38ab6C3b77cd4578129",
 };
