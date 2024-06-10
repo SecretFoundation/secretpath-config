@@ -239,7 +239,7 @@ export const testnets = {
 };
 
 // Logos
-let chainLogos = {
+let chainLogos =  {
   // Arbitrum Mainnet
   42161: "https://arbiscan.io/images/svg/brands/arbitrum.svg?v=1.5",
   // Linea Mainnet
@@ -258,7 +258,7 @@ let chainLogos = {
    1135: "https://pbs.twimg.com/profile_images/1610268745682849796/pjuC1Y85_400x400.jpg",
 
    //Mainnetz Mainnet
-   2016: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe2KDAtPElT99WYln7tyeQPlPCiBWaRfRA_guAL0HImJWBcRympM_r5VBSiOR29zFpKIU&usqp=CAU",
+   2016: "https://assets.coingecko.com/coins/images/33947/large/zcM8MEO5_400x400.png?1703537595",
 
   //Sepolia Testnet
   11155111:
@@ -279,7 +279,7 @@ let chainLogos = {
   421614: "https://arbiscan.io/images/svg/brands/arbitrum.svg?v=1.5",
 
   // Base Sepolia Testnet
-  84532: "https://basescan.org/images/svg/brands/main.svg?v=24.4.4.9",
+  84532: "https://sepolia.basescan.org/images/svg/brands/main.svg?v=24.4.4.9",
 
   // Berachain Testnet
   80085:
@@ -308,7 +308,7 @@ let chainLogos = {
    1802203764: "https://assets-global.website-files.com/6464a063474b57e2c4e03b61/64a20e2749d92613acf4fd1b_Logo%20dark.svg",
 
     // Mainnetz Testnet
-    9768: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe2KDAtPElT99WYln7tyeQPlPCiBWaRfRA_guAL0HImJWBcRympM_r5VBSiOR29zFpKIU&usqp=CAU",
+    9768: "https://assets.coingecko.com/coins/images/33947/large/zcM8MEO5_400x400.png?1703537595",
 
     // Moonbeam Testnet
     1287: "https://moonbase.moonscan.io/assets/moonbase/images/svg/logos/chain-light.svg?v=24.6.1.0",
