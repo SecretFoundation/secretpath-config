@@ -2,6 +2,20 @@ const abi = [
   { type: "constructor", inputs: [], stateMutability: "nonpayable" },
   {
     type: "function",
+    name: "VRF_routing_code_hash",
+    inputs: [],
+    outputs: [{ name: "", type: "string", internalType: "string" }],
+    stateMutability: "view",
+  },
+  {
+    type: "function",
+    name: "VRF_routing_info",
+    inputs: [],
+    outputs: [{ name: "", type: "string", internalType: "string" }],
+    stateMutability: "view",
+  },
+  {
+    type: "function",
     name: "increaseTaskId",
     inputs: [{ name: "_newTaskId", type: "uint256", internalType: "uint256" }],
     outputs: [],
@@ -79,6 +93,13 @@ const abi = [
   },
   {
     type: "function",
+    name: "secret_gateway_signer_address",
+    inputs: [],
+    outputs: [{ name: "", type: "address", internalType: "address" }],
+    stateMutability: "view",
+  },
+  {
+    type: "function",
     name: "send",
     inputs: [
       { name: "_payloadHash", type: "bytes32", internalType: "bytes32" },
@@ -117,6 +138,13 @@ const abi = [
     name: "taskId",
     inputs: [],
     outputs: [{ name: "", type: "uint256", internalType: "uint256" }],
+    stateMutability: "view",
+  },
+  {
+    type: "function",
+    name: "task_destination_network",
+    inputs: [],
+    outputs: [{ name: "", type: "string", internalType: "string" }],
     stateMutability: "view",
   },
   {

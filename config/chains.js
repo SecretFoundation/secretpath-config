@@ -1,12 +1,13 @@
 // Mainnet configurations
 
-export const mainnets = {
+const mainnets = {
   ethereumMainnet: {
     chainId: 1,
     name: "Ethereum",
     currency: "ETH",
     explorerUrl: "https://etherscan.io",
     rpcUrl: "https://cloudflare-eth.com",
+    logo: "https://ethereum.org/favicon.ico",
   },
   binanceSmartChainMainnet: {
     chainId: 56,
@@ -14,6 +15,7 @@ export const mainnets = {
     currency: "BNB",
     explorerUrl: "https://bscscan.com/",
     rpcUrl: "https://bsc-dataseed.binance.org/",
+    logo: "https://bscscan.com/images/favicon.ico",
   },
   polygonMainnet: {
     chainId: 137,
@@ -21,6 +23,7 @@ export const mainnets = {
     currency: "MATIC",
     explorerUrl: "https://polygonscan.com/",
     rpcUrl: "https://polygon-mainnet.infura.io",
+    logo: "https://polygonscan.com/images/favicon.ico",
   },
   optimismMainnet: {
     chainId: 10,
@@ -28,6 +31,7 @@ export const mainnets = {
     currency: "ETH",
     explorerUrl: "https://optimistic.etherscan.io/",
     rpcUrl: "https://optimism-mainnet.infura.io",
+    logo: "https://optimistic.etherscan.io/images/favicon.ico",
   },
   arbitrumMainnet: {
     chainId: 42161,
@@ -35,6 +39,7 @@ export const mainnets = {
     currency: "ETH",
     explorerUrl: "https://explorer.arbitrum.io",
     rpcUrl: "https://arbitrum-mainnet.infura.io",
+    logo: "https://arbiscan.io/images/svg/brands/arbitrum.svg?v=1.5",
   },
   avalancheMainnet: {
     chainId: 43114,
@@ -42,6 +47,7 @@ export const mainnets = {
     currency: "AVAX",
     explorerUrl: "https://snowtrace.io/",
     rpcUrl: "https://avalanche-mainnet.infura.io",
+    logo: "https://cdn.prod.website-files.com/632993e1d1acbfa5635afd0b/63515267b3214c6dda03ea97_Favicon.png",
   },
   baseMainnet: {
     chainId: 8453,
@@ -49,6 +55,7 @@ export const mainnets = {
     currency: "ETH",
     explorerUrl: "https://basescan.org",
     rpcUrl: "https://mainnet.base.org",
+    logo: "https://basescan.org/images/favicon.ico",
   },
   lineaMainnet: {
     chainId: 59144,
@@ -56,6 +63,7 @@ export const mainnets = {
     currency: "ETH",
     explorerUrl: "https://lineascan.build",
     rpcUrl: "https://linea.blockpi.network/v1/rpc/public",
+    logo: "https://lineascan.build/images/svg/brands/main.svg?v=24.4.2.0",
   },
   scrollMainnet: {
     chainId: 534352,
@@ -63,6 +71,7 @@ export const mainnets = {
     currency: "ETH",
     explorerUrl: "https://scrollscan.com",
     rpcUrl: "https://rpc.scroll.io",
+    logo: "https://scrollecosystem.io/images/banner_logo.png",
   },
   metisMainnet: {
     chainId: 1088,
@@ -70,6 +79,7 @@ export const mainnets = {
     currency: "METIS",
     explorerUrl: "https://1088.routescan.io",
     rpcUrl: "https://andromeda.metis.io",
+    logo: "https://cms-cdn.avascan.com/cms2/metis.97de56bab032.svg",
   },
   XDCMainnet: {
     chainId: 50,
@@ -77,6 +87,7 @@ export const mainnets = {
     currency: "XDC",
     explorerUrl: "https://explorer.xinfin.network/",
     rpcUrl: "https://rpc.xinfin.network",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe2KDAtPElT99WYln7tyeQPlPCiBWaRfRA_guAL0HImJWBcRympM_r5VBSiOR29zFpKIU&usqp=CAU",
   },
   NearAuroraMainnet: {
     chainId: 1313161554,
@@ -84,6 +95,7 @@ export const mainnets = {
     currency: "ETH",
     explorerUrl: "https://explorer.mainnet.aurora.dev/",
     rpcUrl: "https://mainnet.aurora.dev",
+    logo: "https://pbs.twimg.com/profile_images/1610936866227818502/kIqkTKdR_400x400.jpg",
   },
   LiskMainnet: {
     chainId: 1135,
@@ -91,6 +103,7 @@ export const mainnets = {
     currency: "ETH",
     explorerUrl: "https://blockscout.lisk.com",
     rpcUrl: "https://rpc.api.lisk.com",
+    logo: "https://pbs.twimg.com/profile_images/1610268745682849796/pjuC1Y85_400x400.jpg",
   },
   MainnetzMainnet: {
     chainId: 2016,
@@ -98,6 +111,7 @@ export const mainnets = {
     currency: "NetZ",
     explorerUrl: "https://explorer.mainnetz.io",
     rpcUrl: "https://mainnet-rpc.mainnetz.io",
+    logo: "https://assets.coingecko.com/coins/images/33947/large/zcM8MEO5_400x400.png?1703537595",
   },
   MoonriverMainnet: {
     chainId: 1285,
@@ -105,6 +119,7 @@ export const mainnets = {
     currency: "MOVR",
     explorerUrl: "https://moonriver.moonscan.io/",
     rpcUrl: "https://rpc.api.moonriver.moonbeam.network",
+    logo: "https://moonbeam.network/wp-content/uploads/2021/05/moonriver-icon.png",
   },
   MoonbeamMainnet: {
     chainId: 1284,
@@ -112,6 +127,7 @@ export const mainnets = {
     currency: "GLMR",
     explorerUrl: "https://moonbeam.moonscan.io",
     rpcUrl: "https://rpc.api.moonbeam.network",
+    logo: "https://moonbeam.network/wp-content/uploads/2020/11/moonbeam-logo.png",
   },
   CoreMainnet: {
     chainId: 1116,
@@ -119,6 +135,7 @@ export const mainnets = {
     currency: "CORE",
     explorerUrl: "https://scan.coredao.org",
     rpcUrl: "https://rpc.coredao.org/",
+    logo: "https://scan.coredao.org/images/logo.svg",
   },
   MantleMainnet: {
     chainId: 5000,
@@ -126,16 +143,19 @@ export const mainnets = {
     currency: "MNT",
     explorerUrl: "https://explorer.mantle.xyz",
     rpcUrl: "https://rpc.mantle.xyz",
+    logo: "https://explorer.mantle.xyz/images/logo.svg",
   },
 };
+
 // Testnet configurations
-export const testnets = {
+const testnets = {
   sepoliaTestnet: {
     chainId: 11155111,
     name: "Sepolia",
     currency: "ETH",
     explorerUrl: "https://sepolia.etherscan.io",
     rpcUrl: "https://rpc.sepolia.org",
+    logo: "https://moralis.io/wp-content/uploads/web3wiki/159-goerli/637aee14aa9d9f521437ec16_hYC2y965v3QD7fEoVvutzGbJzVGLSOk6RZPwEQWcA_E.jpeg",
   },
   scrollTestnet: {
     chainId: 534351,
@@ -143,6 +163,7 @@ export const testnets = {
     currency: "ETH",
     explorerUrl: "https://sepolia.scrollscan.com",
     rpcUrl: "https://sepolia-rpc.scroll.io/",
+    logo: "https://scrollecosystem.io/images/banner_logo.png",
   },
   polygonTestnet: {
     chainId: 80002,
@@ -150,6 +171,7 @@ export const testnets = {
     currency: "MATIC",
     explorerUrl: "https://amoy.polygonscan.com/",
     rpcUrl: "https://rpc-amoy.polygon.technology/",
+    logo: "https://assets-global.website-files.com/637e2b6d602973ea0941d482/63e26c8a3f6e812d91a7aa3d_Polygon-New-Logo.png",
   },
   optimismTestnet: {
     chainId: 11155420,
@@ -157,6 +179,7 @@ export const testnets = {
     currency: "ETH",
     explorerUrl: "https://optimism-sepolia.blockscout.com",
     rpcUrl: "https://sepolia.optimism.io",
+    logo: "https://optimistic.etherscan.io/assets/optimism/images/svg/logos/chain-light.svg?v=24.4.4.4",
   },
   arbitrumTestnet: {
     chainId: 421614,
@@ -164,6 +187,7 @@ export const testnets = {
     currency: "ETH",
     explorerUrl: "https://sepolia.arbiscan.io",
     rpcUrl: "https://sepolia-rollup.arbitrum.io/rpc",
+    logo: "https://arbiscan.io/images/svg/brands/arbitrum.svg?v=1.5",
   },
   baseSepoliaTestnet: {
     chainId: 84532,
@@ -171,6 +195,7 @@ export const testnets = {
     currency: "ETH",
     explorerUrl: "https://sepolia-explorer.base.org",
     rpcUrl: "https://sepolia.base.org",
+    logo: "https://sepolia.basescan.org/images/svg/brands/main.svg?v=24.4.4.9",
   },
   berachainTestnet: {
     chainId: 80085,
@@ -178,6 +203,7 @@ export const testnets = {
     currency: "BERA",
     explorerUrl: "https://artio.beratrail.io/",
     rpcUrl: "https://artio.rpc.berachain.com/",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq-tjg8Kqgr76Ved6PbcjBoGCHWwnhDUljH-CziyBOzw&s",
   },
   etherlinkTestnet: {
     chainId: 128123,
@@ -185,6 +211,7 @@ export const testnets = {
     currency: "XTZ",
     explorerUrl: "https://testnet-explorer.etherlink.com/",
     rpcUrl: "https://node.ghostnet.etherlink.com/",
+    logo: "https://www.etherlink.com/favicon.ico",
   },
   metisSepoliaTestnet: {
     chainId: 59902,
@@ -192,6 +219,7 @@ export const testnets = {
     currency: "sMETIS",
     explorerUrl: "https://sepolia-explorer.metisdevops.link",
     rpcUrl: "https://sepolia.metisdevops.link",
+    logo: "https://cms-cdn.avascan.com/cms2/metis.97de56bab032.svg",
   },
   nearAuroraTestnet: {
     chainId: 1313161555,
@@ -199,6 +227,7 @@ export const testnets = {
     currency: "ETH",
     explorerUrl: "https://explorer.testnet.aurora.dev/",
     rpcUrl: "https://testnet.aurora.dev",
+    logo: "https://pbs.twimg.com/profile_images/1610936866227818502/kIqkTKdR_400x400.jpg",
   },
   lineaSepoliaTestnet: {
     chainId: 59141,
@@ -206,6 +235,7 @@ export const testnets = {
     currency: "ETH",
     explorerUrl: "https://sepolia.lineascan.build",
     rpcUrl: "https://rpc.sepolia.linea.build",
+    logo: "https://lineascan.build/images/svg/brands/main.svg?v=24.4.2.0",
   },
   XDCApothemTestnet: {
     chainId: 51,
@@ -213,6 +243,7 @@ export const testnets = {
     currency: "XDC",
     explorerUrl: "https://explorer.apothem.network/",
     rpcUrl: "https://rpc.apothem.network",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe2KDAtPElT99WYln7tyeQPlPCiBWaRfRA_guAL0HImJWBcRympM_r5VBSiOR29zFpKIU&usqp=CAU",
   },
   liskSepoliaTestnet: {
     chainId: 4202,
@@ -220,6 +251,7 @@ export const testnets = {
     currency: "ETH",
     explorerUrl: "https://sepolia-blockscout.lisk.com",
     rpcUrl: "https://rpc.lisk-sepolia-testnet.gelato.digital",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRan6D0dfiYmx2sv4kUPsFkfUDxYUWEuuA_dLJWgPm8Q&s",
   },
   KakarotTestnet: {
     chainId: 1802203764,
@@ -227,6 +259,7 @@ export const testnets = {
     currency: "ETH",
     explorerUrl: "https://sepolia.kakarotscan.org",
     rpcUrl: "https://sepolia-rpc.kakarot.org",
+    logo: "https://assets-global.website-files.com/6464a063474b57e2c4e03b61/64a20e2749d92613acf4fd1b_Logo%20dark.svg",
   },
   MainnetzTestnet: {
     chainId: 9768,
@@ -234,6 +267,7 @@ export const testnets = {
     currency: "NetZ",
     explorerUrl: "https://testnet.mainnetz.io/",
     rpcUrl: "https://testnet-rpc.mainnetz.io",
+    logo: "https://assets.coingecko.com/coins/images/33947/large/zcM8MEO5_400x400.png?1703537595",
   },
   MoonbaseAlphaTestnet: {
     chainId: 1287,
@@ -241,6 +275,7 @@ export const testnets = {
     currency: "DEV",
     explorerUrl: "https://moonbase.moonscan.io/",
     rpcUrl: "https://rpc.testnet.moonbeam.network",
+    logo: "https://moonbase.moonscan.io/assets/moonbase/images/svg/logos/chain-light.svg?v=24.6.1.0",
   },
   FhenixTestnet: {
     chainId: 8008135,
@@ -248,6 +283,7 @@ export const testnets = {
     currency: "tETH",
     explorerUrl: "https://explorer.helium.fhenix.zone",
     rpcUrl: "https://api.helium.fhenix.zone/",
+    logo: "https://media.licdn.com/dms/image/D4D0BAQFtUjFKqv_DJA/company-logo_200_200/0/1695715998703/fhenix_logo?e=2147483647&v=beta&t=U2cvAqKuWeEqE5Cb4HgyuBmVTUcBuZvsDi0JdivU3nw",
   },
   CoreTestnet: {
     chainId: 1115,
@@ -255,6 +291,7 @@ export const testnets = {
     currency: "tCORE",
     explorerUrl: "https://scan.test.btcs.network",
     rpcUrl: "https://rpc.test.btcs.network",
+    logo: "https://scan.test.btcs.network/images/logo.svg",
   },
   MantleTestnet: {
     chainId: 5003,
@@ -262,86 +299,25 @@ export const testnets = {
     currency: "MNT",
     explorerUrl: "https://sepolia.mantlescan.xyz/",
     rpcUrl: "https://rpc.sepolia.mantle.xyz",
+    logo: "https://explorer.mantle.xyz/images/logo.svg",
   },
 };
 
-// Logos
-let chainLogos = {
-  // Arbitrum Mainnet
-  42161: "https://arbiscan.io/images/svg/brands/arbitrum.svg?v=1.5",
-  // Linea Mainnet
-  59144: "https://lineascan.build/images/svg/brands/main.svg?v=24.4.2.0",
+// Function to generate chainLogos from testnets
+function generateChainLogos(testnets) {
+  let chainLogos = {};
 
-  //Scroll Mainnet
-  534352: "https://scrollecosystem.io/images/banner_logo.png",
+  for (const key in testnets) {
+    if (testnets.hasOwnProperty(key)) {
+      const testnet = testnets[key];
+      chainLogos[testnet.chainId] = testnet.logo;
+    }
+  }
 
-  // Metis Mainnet
-  1088: "https://cms-cdn.avascan.com/cms2/metis.97de56bab032.svg",
+  return chainLogos;
+}
 
-  // XDC Mainnet
-  50: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe2KDAtPElT99WYln7tyeQPlPCiBWaRfRA_guAL0HImJWBcRympM_r5VBSiOR29zFpKIU&usqp=CAU",
+// Generate chainLogos
+const chainLogos = generateChainLogos(testnets);
 
-  // Lisk Mainnet
-  1135: "https://pbs.twimg.com/profile_images/1610268745682849796/pjuC1Y85_400x400.jpg",
-
-  //Mainnetz Mainnet
-  2016: "https://assets.coingecko.com/coins/images/33947/large/zcM8MEO5_400x400.png?1703537595",
-
-  //Sepolia Testnet
-  11155111:
-    "https://moralis.io/wp-content/uploads/web3wiki/159-goerli/637aee14aa9d9f521437ec16_hYC2y965v3QD7fEoVvutzGbJzVGLSOk6RZPwEQWcA_E.jpeg",
-
-  // Scroll Testnet
-  534351: "https://scrollecosystem.io/images/banner_logo.png",
-
-  // Polygon Amoy Testnet
-  80002:
-    "https://assets-global.website-files.com/637e2b6d602973ea0941d482/63e26c8a3f6e812d91a7aa3d_Polygon-New-Logo.png",
-
-  // Optimism Testnet
-  11155420:
-    "https://optimistic.etherscan.io/assets/optimism/images/svg/logos/chain-light.svg?v=24.4.4.4",
-
-  // Arbitrum Testnet
-  421614: "https://arbiscan.io/images/svg/brands/arbitrum.svg?v=1.5",
-
-  // Base Sepolia Testnet
-  84532: "https://sepolia.basescan.org/images/svg/brands/main.svg?v=24.4.4.9",
-
-  // Berachain Testnet
-  80085:
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq-tjg8Kqgr76Ved6PbcjBoGCHWwnhDUljH-CziyBOzw&s",
-
-  // Etherlink Testnet
-  128123: "https://www.etherlink.com/favicon.ico",
-
-  //Metis Sepolia Testnet
-  59902: "https://cms-cdn.avascan.com/cms2/metis.97de56bab032.svg",
-
-  // Near Aurora Testnet
-  1313161555:
-    "https://pbs.twimg.com/profile_images/1610936866227818502/kIqkTKdR_400x400.jpg",
-
-  // Linea Testnet
-  59141: "https://lineascan.build/images/svg/brands/main.svg?v=24.4.2.0",
-
-  // XDC Testnet
-  51: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe2KDAtPElT99WYln7tyeQPlPCiBWaRfRA_guAL0HImJWBcRympM_r5VBSiOR29zFpKIU&usqp=CAU",
-
-  //Lisk Sepolia
-  4202: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRan6D0dfiYmx2sv4kUPsFkfUDxYUWEuuA_dLJWgPm8Q&s",
-
-  // Kakarot Testnet
-  1802203764:
-    "https://assets-global.website-files.com/6464a063474b57e2c4e03b61/64a20e2749d92613acf4fd1b_Logo%20dark.svg",
-
-  // Mainnetz Testnet
-  9768: "https://assets.coingecko.com/coins/images/33947/large/zcM8MEO5_400x400.png?1703537595",
-
-  // Moonbeam Testnet
-  1287: "https://moonbase.moonscan.io/assets/moonbase/images/svg/logos/chain-light.svg?v=24.6.1.0",
-
-  // Fhenix Testnet
-  8008135:
-    "https://media.licdn.com/dms/image/D4D0BAQFtUjFKqv_DJA/company-logo_200_200/0/1695715998703/fhenix_logo?e=2147483647&v=beta&t=U2cvAqKuWeEqE5Cb4HgyuBmVTUcBuZvsDi0JdivU3nw",
-};
+console.log(chainLogos)
