@@ -70,7 +70,6 @@ export const mainnets = {
     currency: "METIS",
     explorerUrl: "https://1088.routescan.io",
     rpcUrl: "https://andromeda.metis.io",
-  
   },
   XDCMainnet: {
     chainId: 50,
@@ -121,13 +120,13 @@ export const mainnets = {
     explorerUrl: "https://scan.coredao.org",
     rpcUrl: "https://rpc.coredao.org/",
   },
-MantleMainnet: {
+  MantleMainnet: {
     chainId: 5000,
     name: "Mantle Mainnet",
     currency: "MNT",
     explorerUrl: "https://explorer.mantle.xyz",
     rpcUrl: "https://rpc.mantle.xyz",
-  }
+  },
 };
 // Testnet configurations
 export const testnets = {
@@ -267,7 +266,7 @@ export const testnets = {
 };
 
 // Logos
-let chainLogos =  {
+let chainLogos = {
   // Arbitrum Mainnet
   42161: "https://arbiscan.io/images/svg/brands/arbitrum.svg?v=1.5",
   // Linea Mainnet
@@ -279,14 +278,14 @@ let chainLogos =  {
   // Metis Mainnet
   1088: "https://cms-cdn.avascan.com/cms2/metis.97de56bab032.svg",
 
-   // XDC Mainnet
-   50: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe2KDAtPElT99WYln7tyeQPlPCiBWaRfRA_guAL0HImJWBcRympM_r5VBSiOR29zFpKIU&usqp=CAU",
+  // XDC Mainnet
+  50: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe2KDAtPElT99WYln7tyeQPlPCiBWaRfRA_guAL0HImJWBcRympM_r5VBSiOR29zFpKIU&usqp=CAU",
 
-   // Lisk Mainnet
-   1135: "https://pbs.twimg.com/profile_images/1610268745682849796/pjuC1Y85_400x400.jpg",
+  // Lisk Mainnet
+  1135: "https://pbs.twimg.com/profile_images/1610268745682849796/pjuC1Y85_400x400.jpg",
 
-   //Mainnetz Mainnet
-   2016: "https://assets.coingecko.com/coins/images/33947/large/zcM8MEO5_400x400.png?1703537595",
+  //Mainnetz Mainnet
+  2016: "https://assets.coingecko.com/coins/images/33947/large/zcM8MEO5_400x400.png?1703537595",
 
   //Sepolia Testnet
   11155111:
@@ -332,15 +331,17 @@ let chainLogos =  {
   //Lisk Sepolia
   4202: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRan6D0dfiYmx2sv4kUPsFkfUDxYUWEuuA_dLJWgPm8Q&s",
 
-   // Kakarot Testnet
-   1802203764: "https://assets-global.website-files.com/6464a063474b57e2c4e03b61/64a20e2749d92613acf4fd1b_Logo%20dark.svg",
+  // Kakarot Testnet
+  1802203764:
+    "https://assets-global.website-files.com/6464a063474b57e2c4e03b61/64a20e2749d92613acf4fd1b_Logo%20dark.svg",
 
-    // Mainnetz Testnet
-    9768: "https://assets.coingecko.com/coins/images/33947/large/zcM8MEO5_400x400.png?1703537595",
+  // Mainnetz Testnet
+  9768: "https://assets.coingecko.com/coins/images/33947/large/zcM8MEO5_400x400.png?1703537595",
 
-    // Moonbeam Testnet
-    1287: "https://moonbase.moonscan.io/assets/moonbase/images/svg/logos/chain-light.svg?v=24.6.1.0",
+  // Moonbeam Testnet
+  1287: "https://moonbase.moonscan.io/assets/moonbase/images/svg/logos/chain-light.svg?v=24.6.1.0",
 
-     // Fhenix Testnet
-     8008135: "https://media.licdn.com/dms/image/D4D0BAQFtUjFKqv_DJA/company-logo_200_200/0/1695715998703/fhenix_logo?e=2147483647&v=beta&t=U2cvAqKuWeEqE5Cb4HgyuBmVTUcBuZvsDi0JdivU3nw",
+  // Fhenix Testnet
+  8008135:
+    "https://media.licdn.com/dms/image/D4D0BAQFtUjFKqv_DJA/company-logo_200_200/0/1695715998703/fhenix_logo?e=2147483647&v=beta&t=U2cvAqKuWeEqE5Cb4HgyuBmVTUcBuZvsDi0JdivU3nw",
 };
