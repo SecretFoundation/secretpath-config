@@ -145,6 +145,21 @@ const mainnets = {
     rpcUrl: "https://rpc.mantle.xyz",
     logo: "https://explorer.mantle.xyz/images/logo.svg",
   },
+  SeiMainnet: {
+    chainId: 1329,
+    name: "Sei",
+    currency: "SEI",
+    explorerUrl: "https://seistream.app/",
+    rpcUrl: "https://sei-evm-rpc.stakeme.pro",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFGvgacXR_ZJo61dPkc3xNs1enVpq0v64vGg&s",
+  },
+GnosisMainnet: {
+    chainId: 100,
+    name: "Gnosis",
+    currency: "xDAI",
+    explorerUrl: "https://gnosisscan.io/",
+    rpcUrl: "https://rpc.ankr.com/gnosis",
+  },
 };
 
 // Testnet configurations
@@ -300,6 +315,30 @@ const testnets = {
     explorerUrl: "https://sepolia.mantlescan.xyz/",
     rpcUrl: "https://rpc.sepolia.mantle.xyz",
     logo: "https://explorer.mantle.xyz/images/logo.svg",
+  },
+  GnosisChiadoTestnet: {
+    chainId: 10200,
+    name: "Gnosis Chiado Testnet",
+    currency: "XDAI",
+    explorerUrl: "https://gnosis-chiado.blockscout.com",
+    rpcUrl: "https://rpc.chiadochain.net",
+    logo: "https://cryptologos.cc/logos/gnosis-gno-gno-logo.svg?v=032",
+  },
+  SeiTestnet: {
+    chainId: 713715,
+    name: "Sei Devnet",
+    currency: "SEI",
+    explorerUrl: "https://seistream.app",
+    rpcUrl: "https://evm-rpc-arctic-1.sei-apis.com",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFGvgacXR_ZJo61dPkc3xNs1enVpq0v64vGg&s",
+  },
+  UbitTestnet: {
+    chainId: 44433,
+    name: "UBIT Testnet",
+    currency: "tUSC",
+    explorerUrl: "https://testnet.ubitscan.io/",
+    rpcUrl: "https://testnet-rpc.ubitscan.io/",
+    logo: "https://cdn.dorahacks.io/static/files/190a27e11a44bf8cd0c07094264b1b85.png@256h.webp",
   },
 };
 

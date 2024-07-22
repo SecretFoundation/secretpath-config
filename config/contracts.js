@@ -17,18 +17,15 @@ export const mainnet = {
     "0x59D8C9591dB7179c5d592c5bCD42694021885aFC",
   publicClientAddressMetisMainnet: "0x874303B788c8A13a39EFA38ab6C3b77cd4578129",
   publicClientAddressXDCMainnet: "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
-  publicClientAddressNearAuroraMainnet:
-    "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+  publicClientAddressNearAuroraMainnet: "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
   publicClientAddressLiskMainnet: "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
-  publicClientAddressMainnetzMainnet:
-    "0x874303B788c8A13a39EFA38ab6C3b77cd4578129",
-  publicClientAddressMoonriverMainnet:
-    "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
-  publicClientAddressMoonbeamMainnet:
-    "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+  publicClientAddressMainnetzMainnet: "0x874303B788c8A13a39EFA38ab6C3b77cd4578129",
+  publicClientAddressMoonriverMainnet: "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+  publicClientAddressMoonbeamMainnet: "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
   publicClientAddressCoreMainnet: "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
-  publicClientAddressMantleMainnet:
-    "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+  publicClientAddressMantleMainnet: "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+  publicClientAddressSeiMainnet: "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+  publicClientAddressGnosisMainnet: "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
 };
 
 export const testnet = {
@@ -58,15 +55,23 @@ export const testnet = {
     "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
   publicClientAddressLiskSepoliaTestnet:
     "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
-  publicClientAddressKakarotTestnet:
+    publicClientAddressKakarotTestnet:
     "0x874303B788c8A13a39EFA38ab6C3b77cd4578129",
-  publicClientAddressMainnetzTestnet:
+    publicClientAddressMainnetzTestnet:
     "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
-  publicClientAddressMoonbaseAlphaTestnet:
+    publicClientAddressMoonbaseAlphaTestnet:
     "0x874303B788c8A13a39EFA38ab6C3b77cd4578129",
-  publicClientAddressFhenixHeliumTestnet:
+    publicClientAddressFhenixHeliumTestnet:
     "0x59D8C9591dB7179c5d592c5bCD42694021885aFC",
-  publicClientAddressCoreTestnet: "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
-  publicClientAddressMantleTestnet:
+    publicClientAddressCoreTestnet:
     "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+    publicClientAddressMantleTestnet:
+    "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+    publicClientAddressGnosisChiadoTestnet:
+    "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+    publicClientAddressSeiTestnet:
+    "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+    publicClientAddressUbitTestnet:
+    "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+
 };
