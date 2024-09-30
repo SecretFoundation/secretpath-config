@@ -1,349 +1,332 @@
 {
-  "mainnets": {
-    "ethereumMainnet": {
-      "chainId": 1,
-      "name": "Ethereum",
-      "currency": "ETH",
-      "explorerUrl": "https://etherscan.io",
-      "rpcUrl": "https://cloudflare-eth.com"
+  "chains": {
+    "mainnets": {
+      "ethereumMainnet": {
+        "chainId": 1,
+        "name": "Ethereum",
+        "currency": "ETH",
+        "explorerUrl": "https://etherscan.io",
+        "rpcUrl": "https://cloudflare-eth.com",
+        "publicClientAddress": "0xfaFCfceC4e29e9b4ECc8C0a3f7df1011580EEEf2",
+        "image": ""
+      },
+      "binanceSmartChainMainnet": {
+        "chainId": 56,
+        "name": "BNB Chain",
+        "currency": "BNB",
+        "explorerUrl": "https://bscscan.com/",
+        "rpcUrl": "https://bsc-dataseed.binance.org/",
+        "publicClientAddress": "0xfaFCfceC4e29e9b4ECc8C0a3f7df1011580EEEf2",
+        "image": ""
+      },
+      "polygonMainnet": {
+        "chainId": 137,
+        "name": "Polygon Mainnet",
+        "currency": "MATIC",
+        "explorerUrl": "https://polygonscan.com/",
+        "rpcUrl": "https://polygon-mainnet.infura.io",
+        "publicClientAddress": "0xA91712bb011eFB27622ca2BAB940E2589954d3d7",
+        "image": ""
+      },
+      "optimismMainnet": {
+        "chainId": 10,
+        "name": "OP Mainnet",
+        "currency": "ETH",
+        "explorerUrl": "https://optimistic.etherscan.io/",
+        "rpcUrl": "https://optimism-mainnet.infura.io",
+        "publicClientAddress": "0xfaFCfceC4e29e9b4ECc8C0a3f7df1011580EEEf2",
+        "image": ""
+      },
+      "arbitrumMainnet": {
+        "chainId": 42161,
+        "name": "Arbitrum One",
+        "currency": "ETH",
+        "explorerUrl": "https://explorer.arbitrum.io",
+        "rpcUrl": "https://arbitrum-mainnet.infura.io",
+        "publicClientAddress": "0xfaFCfceC4e29e9b4ECc8C0a3f7df1011580EEEf2",
+        "image": "https://arbiscan.io/images/svg/brands/arbitrum.svg?v=1.5"
+      },
+      "avalancheMainnet": {
+        "chainId": 43114,
+        "name": "Avalanche Network C-Chain",
+        "currency": "AVAX",
+        "explorerUrl": "https://snowtrace.io/",
+        "rpcUrl": "https://avalanche-mainnet.infura.io",
+        "publicClientAddress": "0xfaFCfceC4e29e9b4ECc8C0a3f7df1011580EEEf2",
+        "image": ""
+      },
+      "baseMainnet": {
+        "chainId": 8453,
+        "name": "Base Mainnet",
+        "currency": "ETH",
+        "explorerUrl": "https://basescan.org",
+        "rpcUrl": "https://mainnet.base.org",
+        "publicClientAddress": "0xf50c73581d6def7f911aC1D6d0d5e928691AAa9E",
+        "image": ""
+      },
+      "lineaMainnet": {
+        "chainId": 59144,
+        "name": "Linea",
+        "currency": "ETH",
+        "explorerUrl": "https://lineascan.build",
+        "rpcUrl": "https://linea.blockpi.network/v1/rpc/public",
+        "publicClientAddress": "0xfaFCfceC4e29e9b4ECc8C0a3f7df1011580EEEf2",
+        "image": "https://lineascan.build/images/svg/brands/main.svg?v=24.4.2.0"
+      },
+      "scrollMainnet": {
+        "chainId": 534352,
+        "name": "Scroll",
+        "currency": "ETH",
+        "explorerUrl": "https://scrollscan.com",
+        "rpcUrl": "https://rpc.scroll.io",
+        "publicClientAddress": "0x59D8C9591dB7179c5d592c5bCD42694021885aFC",
+        "image": "https://scrollecosystem.io/images/banner_logo.png"
+      },
+      "metisMainnet": {
+        "chainId": 1088,
+        "name": "Metis",
+        "currency": "METIS",
+        "explorerUrl": "https://1088.routescan.io",
+        "rpcUrl": "https://andromeda.metis.io",
+        "publicClientAddress": "0x874303B788c8A13a39EFA38ab6C3b77cd4578129",
+        "image": "https://cms-cdn.avascan.com/cms2/metis.97de56bab032.svg"
+      },
+      "XDCMainnet": {
+        "chainId": 50,
+        "name": "XDC Mainnet",
+        "currency": "XDC",
+        "explorerUrl": "https://explorer.xinfin.network/",
+        "rpcUrl": "https://rpc.xinfin.network",
+        "publicClientAddress": "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe2KDAtPElT99WYln7tyeQPlPCiBWaRfRA_guAL0HImJWBcRympM_r5VBSiOR29zFpKIU&usqp=CAU"
+      },
+      "NearAuroraMainnet": {
+        "chainId": 1313161554,
+        "name": "Aurora Mainnet",
+        "currency": "ETH",
+        "explorerUrl": "https://explorer.mainnet.aurora.dev/",
+        "rpcUrl": "https://mainnet.aurora.dev",
+        "publicClientAddress": "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+        "image": ""
+      },
+      "LiskMainnet": {
+        "chainId": 1135,
+        "name": "Lisk",
+        "currency": "ETH",
+        "explorerUrl": "https://blockscout.lisk.com",
+        "rpcUrl": "https://rpc.api.lisk.com",
+        "publicClientAddress": "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+        "image": "https://cryptologos.cc/logos/lisk-lsk-logo.png?v=032"
+      },
+      "MainnetzMainnet": {
+        "chainId": 2016,
+        "name": "MainnetZ Mainnet",
+        "currency": "NetZ",
+        "explorerUrl": "https://explorer.mainnetz.io",
+        "rpcUrl": "https://mainnet-rpc.mainnetz.io",
+        "publicClientAddress": "0x874303B788c8A13a39EFA38ab6C3b77cd4578129",
+        "image": "https://assets.coingecko.com/coins/images/33947/large/zcM8MEO5_400x400.png?1703537595"
+      }
     },
-    "binanceSmartChainMainnet": {
-      "chainId": 56,
-      "name": "BNB Chain",
-      "currency": "BNB",
-      "explorerUrl": "https://bscscan.com/",
-      "rpcUrl": "https://bsc-dataseed.binance.org/"
-    },
-    "polygonMainnet": {
-      "chainId": 137,
-      "name": "Polygon Mainnet",
-      "currency": "MATIC",
-      "explorerUrl": "https://polygonscan.com/",
-      "rpcUrl": "https://polygon-mainnet.infura.io"
-    },
-    "optimismMainnet": {
-      "chainId": 10,
-      "name": "OP Mainnet",
-      "currency": "ETH",
-      "explorerUrl": "https://optimistic.etherscan.io/",
-      "rpcUrl": "https://optimism-mainnet.infura.io"
-    },
-    "arbitrumMainnet": {
-      "chainId": 42161,
-      "name": "Arbitrum One",
-      "currency": "ETH",
-      "explorerUrl": "https://explorer.arbitrum.io",
-      "rpcUrl": "https://arbitrum-mainnet.infura.io"
-    },
-    "avalancheMainnet": {
-      "chainId": 43114,
-      "name": "Avalanche Network C-Chain",
-      "currency": "AVAX",
-      "explorerUrl": "https://snowtrace.io/",
-      "rpcUrl": "https://avalanche-mainnet.infura.io"
-    },
-    "baseMainnet": {
-      "chainId": 8453,
-      "name": "Base Mainnet",
-      "currency": "ETH",
-      "explorerUrl": "https://basescan.org",
-      "rpcUrl": "https://mainnet.base.org"
-    },
-    "lineaMainnet": {
-      "chainId": 59144,
-      "name": "Linea",
-      "currency": "ETH",
-      "explorerUrl": "https://lineascan.build",
-      "rpcUrl": "https://linea.blockpi.network/v1/rpc/public"
-    },
-    "scrollMainnet": {
-      "chainId": 534352,
-      "name": "Scroll",
-      "currency": "ETH",
-      "explorerUrl": "https://scrollscan.com",
-      "rpcUrl": "https://rpc.scroll.io"
-    },
-    "metisMainnet": {
-      "chainId": 1088,
-      "name": "Metis",
-      "currency": "METIS",
-      "explorerUrl": "https://1088.routescan.io",
-      "rpcUrl": "https://andromeda.metis.io"
-    },
-    "XDCMainnet": {
-      "chainId": 50,
-      "name": "XDC Mainnet",
-      "currency": "XDC",
-      "explorerUrl": "https://explorer.xinfin.network/",
-      "rpcUrl": "https://rpc.xinfin.network"
-    },
-    "NearAuroraMainnet": {
-      "chainId": 1313161554,
-      "name": "Aurora Mainnet",
-      "currency": "ETH",
-      "explorerUrl": "https://explorer.mainnet.aurora.dev/",
-      "rpcUrl": "https://mainnet.aurora.dev"
-    },
-    "LiskMainnet": {
-      "chainId": 1135,
-      "name": "Lisk",
-      "currency": "ETH",
-      "explorerUrl": "https://blockscout.lisk.com",
-      "rpcUrl": "https://rpc.api.lisk.com"
-    },
-    "MainnetzMainnet": {
-      "chainId": 2016,
-      "name": "MainnetZ Mainnet",
-      "currency": "NetZ",
-      "explorerUrl": "https://explorer.mainnetz.io",
-      "rpcUrl": "https://mainnet-rpc.mainnetz.io"
-    },
-    "MoonriverMainnet": {
-      "chainId": 1285,
-      "name": "Moonriver",
-      "currency": "MOVR",
-      "explorerUrl": "https://moonriver.moonscan.io/",
-      "rpcUrl": "https://rpc.api.moonriver.moonbeam.network"
-    },
-    "MoonbeamMainnet": {
-      "chainId": 1284,
-      "name": "Moonbeam",
-      "currency": "GLMR",
-      "explorerUrl": "https://moonbeam.moonscan.io",
-      "rpcUrl": "https://rpc.api.moonbeam.network"
-    },
-    "CoreMainnet": {
-      "chainId": 1116,
-      "name": "Core Blockchain Mainnet",
-      "currency": "CORE",
-      "explorerUrl": "https://scan.coredao.org",
-      "rpcUrl": "https://rpc.coredao.org/"
-    },
-    "MantleMainnet": {
-      "chainId": 5000,
-      "name": "Mantle Mainnet",
-      "currency": "MNT",
-      "explorerUrl": "https://explorer.mantle.xyz",
-      "rpcUrl": "https://rpc.mantle.xyz"
-    },
-    "SeiMainnet": {
-      "chainId": 1329,
-      "name": "Sei",
-      "currency": "SEI",
-      "explorerUrl": "https://seistream.app/",
-      "rpcUrl": "https://sei-evm-rpc.stakeme.pro"
-    },
-    "GnosisMainnet": {
-      "chainId": 100,
-      "name": "Gnosis",
-      "currency": "xDAI",
-      "explorerUrl": "https://gnosisscan.io/",
-      "rpcUrl": "https://rpc.ankr.com/gnosis"
-    },
-    "CronosMainnet": {
-      "chainId": 25,
-      "name": "Cronos Mainnet",
-      "currency": "CRO",
-      "explorerUrl": "https://cronoscan.com",
-      "rpcUrl": "https://evm-cronos.crypto.org"
-    },
-    "CronosZkEVMMainnet": {
-      "chainId": 388,
-      "name": "Cronos zkEVM",
-      "currency": "zkCRO",
-      "explorerUrl": "https://explorer.zkevm.cronos.org",
-      "rpcUrl": "https://mainnet.zkevm.cronos.org"
-    },
-    "ZKsyncEraMainnet": {
-      "chainId": 324,
-      "name": "Cronos Mainnet",
-      "currency": "ETH",
-      "explorerUrl": "https://explorer.zksync.io",
-      "rpcUrl": "https://mainnet.era.zksync.io"
-    }
-  },
-  "testnets": {
-    "sepoliaTestnet": {
-      "chainId": 11155111,
-      "name": "Sepolia",
-      "currency": "ETH",
-      "explorerUrl": "https://sepolia.etherscan.io",
-      "rpcUrl": "https://rpc.sepolia.org"
-    },
-    "scrollTestnet": {
-      "chainId": 534351,
-      "name": "Scroll Sepolia Testnet",
-      "currency": "ETH",
-      "explorerUrl": "https://sepolia.scrollscan.com",
-      "rpcUrl": "https://sepolia-rpc.scroll.io/"
-    },
-    "polygonTestnet": {
-      "chainId": 80002,
-      "name": "Polygon Amoy Testnet",
-      "currency": "MATIC",
-      "explorerUrl": "https://amoy.polygonscan.com/",
-      "rpcUrl": "https://rpc-amoy.polygon.technology/"
-    },
-    "optimismTestnet": {
-      "chainId": 11155420,
-      "name": "Optimism Sepolia",
-      "currency": "ETH",
-      "explorerUrl": "https://optimism-sepolia.blockscout.com",
-      "rpcUrl": "https://sepolia.optimism.io"
-    },
-    "arbitrumTestnet": {
-      "chainId": 421614,
-      "name": "Arbitrum Sepolia",
-      "currency": "ETH",
-      "explorerUrl": "https://sepolia.arbiscan.io",
-      "rpcUrl": "https://sepolia-rollup.arbitrum.io/rpc"
-    },
-    "baseSepoliaTestnet": {
-      "chainId": 84532,
-      "name": "Base Sepolia",
-      "currency": "ETH",
-      "explorerUrl": "https://sepolia-explorer.base.org",
-      "rpcUrl": "https://sepolia.base.org"
-    },
-    "berachainTestnet": {
-      "chainId": 80085,
-      "name": "Berachain Artio",
-      "currency": "BERA",
-      "explorerUrl": "https://artio.beratrail.io/",
-      "rpcUrl": "https://artio.rpc.berachain.com/"
-    },
-    "etherlinkTestnet": {
-      "chainId": 128123,
-      "name": "Etherlink Testnet",
-      "currency": "XTZ",
-      "explorerUrl": "https://testnet-explorer.etherlink.com/",
-      "rpcUrl": "https://node.ghostnet.etherlink.com/"
-    },
-    "metisSepoliaTestnet": {
-      "chainId": 59902,
-      "name": "Metis Sepolia Testnet",
-      "currency": "sMETIS",
-      "explorerUrl": "https://sepolia-explorer.metisdevops.link",
-      "rpcUrl": "https://sepolia.metisdevops.link"
-    },
-    "nearAuroraTestnet": {
-      "chainId": 1313161555,
-      "name": "Aurora Testnet",
-      "currency": "ETH",
-      "explorerUrl": "https://explorer.testnet.aurora.dev/",
-      "rpcUrl": "https://testnet.aurora.dev"
-    },
-    "lineaSepoliaTestnet": {
-      "chainId": 59141,
-      "name": "Linea Sepolia test network",
-      "currency": "ETH",
-      "explorerUrl": "https://sepolia.lineascan.build",
-      "rpcUrl": "https://rpc.sepolia.linea.build"
-    },
-    "XDCApothemTestnet": {
-      "chainId": 51,
-      "name": "XDC TestNet",
-      "currency": "XDC",
-      "explorerUrl": "https://explorer.apothem.network/",
-      "rpcUrl": "https://rpc.apothem.network"
-    },
-    "liskSepoliaTestnet": {
-      "chainId": 4202,
-      "name": "Lisk Sepolia Testnet",
-      "currency": "ETH",
-      "explorerUrl": "https://sepolia-blockscout.lisk.com",
-      "rpcUrl": "https://rpc.sepolia-api.lisk.com"
-    },
-    "KakarotTestnet": {
-      "chainId": 1802203764,
-      "name": "Kakarot Sepolia",
-      "currency": "ETH",
-      "explorerUrl": "https://sepolia.kakarotscan.org",
-      "rpcUrl": "https://sepolia-rpc.kakarot.org"
-    },
-    "MainnetzTestnet": {
-      "chainId": 9768,
-      "name": "MainnetZ Testnet",
-      "currency": "NetZ",
-      "explorerUrl": "https://testnet.mainnetz.io/",
-      "rpcUrl": "https://testnet-rpc.mainnetz.io"
-    },
-    "MoonbaseAlphaTestnet": {
-      "chainId": 1287,
-      "name": "moonbase-alphanet",
-      "currency": "DEV",
-      "explorerUrl": "https://moonbase.moonscan.io/",
-      "rpcUrl": "https://rpc.testnet.moonbeam.network"
-    },
-    "FhenixTestnet": {
-      "chainId": 8008135,
-      "name": "Fhenix Helium",
-      "currency": "tETH",
-      "explorerUrl": "https://explorer.helium.fhenix.zone",
-      "rpcUrl": "https://api.helium.fhenix.zone/"
-    },
-    "CoreTestnet": {
-      "chainId": 1115,
-      "name": "Core Blockchain Testnet",
-      "currency": "tCORE",
-      "explorerUrl": "https://scan.test.btcs.network",
-      "rpcUrl": "https://rpc.test.btcs.network"
-    },
-    "MantleTestnet": {
-      "chainId": 5003,
-      "name": "Mantle Sepolia",
-      "currency": "MNT",
-      "explorerUrl": "https://sepolia.mantlescan.xyz/",
-      "rpcUrl": "https://rpc.sepolia.mantle.xyz"
-    },
-    "GnosisChiadoTestnet": {
-      "chainId": 10200,
-      "name": "Gnosis Chiado Testnet",
-      "currency": "XDAI",
-      "explorerUrl": "https://gnosis-chiado.blockscout.com",
-      "rpcUrl": "https://rpc.chiadochain.net"
-    },
-    "SeiTestnet": {
-      "chainId": 713715,
-      "name": "Sei Devnet",
-      "currency": "SEI",
-      "explorerUrl": "https://seistream.app",
-      "rpcUrl": "https://evm-rpc-arctic-1.sei-apis.com"
-    },
-    "UbitTestnet": {
-      "chainId": 44433,
-      "name": "UBIT Testnet",
-      "currency": "tUSC",
-      "explorerUrl": "https://testnet.ubitscan.io/",
-      "rpcUrl": "https://testnet-rpc.ubitscan.io/"
-    },
-    "CronosTestnet": {
-      "chainId": 338,
-      "name": "Cronos Testnet",
-      "currency": "TCRO",
-      "explorerUrl": "https://explorer.cronos.org/testnet",
-      "rpcUrl": "https://evm-t3.cronos.org"
-    },
-    "CronosZkEvmTestnet": {
-      "chainId": 282,
-      "name": "Cronos zkEVM Testnet",
-      "currency": "zkTCRO",
-      "explorerUrl": "https://explorer.zkevm.cronos.org/testnet",
-      "rpcUrl": "https://testnet.zkevm.cronos.org"
-    },
-    "ZksyncEraSepoliaTestnet": {
-      "chainId": 300,
-      "name": "ZKsync Sepolia Testnet",
-      "currency": "ETH",
-      "explorerUrl": "https://sepolia.explorer.zksync.io",
-      "rpcUrl": "https://sepolia.era.zksync.dev"
-    },
-    "EdeXaTestnet": {
-      "chainId": 1995,
-      "name": "edeXa Blockchain Testnet",
-      "currency": "EDX",
-      "explorerUrl": "https://explorer.testnet.edexa.com/",
-      "rpcUrl": "https://testnet.edexa.com/rpc"
+    "testnets": {
+      "sepoliaTestnet": {
+        "chainId": 11155111,
+        "name": "Sepolia",
+        "currency": "ETH",
+        "explorerUrl": "https://sepolia.etherscan.io",
+        "rpcUrl": "https://rpc.sepolia.org",
+        "publicClientAddress": "0x3879E146140b627a5C858a08e507B171D9E43139",
+        "image": "https://moralis.io/wp-content/uploads/web3wiki/159-goerli/637aee14aa9d9f521437ec16_hYC2y965v3QD7fEoVvutzGbJzVGLSOk6RZPwEQWcA_E.jpeg"
+      },
+      "scrollTestnet": {
+        "chainId": 534351,
+        "name": "Scroll Sepolia Testnet",
+        "currency": "ETH",
+        "explorerUrl": "https://sepolia.scrollscan.com",
+        "rpcUrl": "https://sepolia-rpc.scroll.io/",
+        "publicClientAddress": "0x4c14a6A0CD2DA2848D3C31285B828F6364087735",
+        "image": "https://scrollecosystem.io/images/banner_logo.png"
+      },
+      "polygonTestnet": {
+        "chainId": 80002,
+        "name": "Polygon Amoy Testnet",
+        "currency": "MATIC",
+        "explorerUrl": "https://amoy.polygonscan.com/",
+        "rpcUrl": "https://rpc-amoy.polygon.technology/",
+        "publicClientAddress": "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+        "image": "https://assets-global.website-files.com/637e2b6d602973ea0941d482/63e26c8a3f6e812d91a7aa3d_Polygon-New-Logo.png"
+      },
+      "optimismTestnet": {
+        "chainId": 11155420,
+        "name": "Optimism Sepolia",
+        "currency": "ETH",
+        "explorerUrl": "https://optimism-sepolia.blockscout.com",
+        "rpcUrl": "https://sepolia.optimism.io",
+        "publicClientAddress": "0xf50c73581d6def7f911aC1D6d0d5e928691AAa9E",
+        "image": "https://optimistic.etherscan.io/assets/optimism/images/svg/logos/chain-light.svg?v=24.4.4.4"
+      },
+      "arbitrumTestnet": {
+        "chainId": 421614,
+        "name": "Arbitrum Sepolia",
+        "currency": "ETH",
+        "explorerUrl": "https://sepolia.arbiscan.io",
+        "rpcUrl": "https://sepolia-rollup.arbitrum.io/rpc",
+        "publicClientAddress": "0xfaFCfceC4e29e9b4ECc8C0a3f7df1011580EEEf2",
+        "image": "https://arbiscan.io/images/svg/brands/arbitrum.svg?v=1.5"
+      },
+      "baseSepoliaTestnet": {
+        "chainId": 84532,
+        "name": "Base Sepolia",
+        "currency": "ETH",
+        "explorerUrl": "https://sepolia-explorer.base.org",
+        "rpcUrl": "https://sepolia.base.org",
+        "publicClientAddress": "0xfaFCfceC4e29e9b4ECc8C0a3f7df1011580EEEf2",
+        "image": "https://sepolia.basescan.org/images/svg/brands/main.svg?v=24.4.4.9"
+      },
+      "berachainTestnet": {
+        "chainId": 80085,
+        "name": "Berachain Artio",
+        "currency": "BERA",
+        "explorerUrl": "https://artio.beratrail.io/",
+        "rpcUrl": "https://artio.rpc.berachain.com/",
+        "publicClientAddress": "0xfaFCfceC4e29e9b4ECc8C0a3f7df1011580EEEf2",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq-tjg8Kqgr76Ved6PbcjBoGCHWwnhDUljH-CziyBOzw&s"
+      },
+      "etherlinkTestnet": {
+        "chainId": 128123,
+        "name": "Etherlink Testnet",
+        "currency": "XTZ",
+        "explorerUrl": "https://testnet-explorer.etherlink.com/",
+        "rpcUrl": "https://node.ghostnet.etherlink.com/",
+        "publicClientAddress": "0x4c14a6A0CD2DA2848D3C31285B828F6364087735",
+        "image": "https://www.etherlink.com/favicon.ico"
+      },
+      "metisSepoliaTestnet": {
+        "chainId": 59902,
+        "name": "Metis Sepolia Testnet",
+        "currency": "sMETIS",
+        "explorerUrl": "https://sepolia-explorer.metisdevops.link",
+        "rpcUrl": "https://sepolia.metisdevops.link",
+        "publicClientAddress": "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+        "image": "https://cms-cdn.avascan.com/cms2/metis.97de56bab032.svg"
+      },
+      "nearAuroraTestnet": {
+        "chainId": 1313161555,
+        "name": "Aurora Testnet",
+        "currency": "ETH",
+        "explorerUrl": "https://explorer.testnet.aurora.dev/",
+        "rpcUrl": "https://testnet.aurora.dev",
+        "publicClientAddress": "0x6f1A599A902982dcD9a632b15D21628cb17f5Cd2",
+        "image": "https://pbs.twimg.com/profile_images/1610936866227818502/kIqkTKdR_400x400.jpg"
+      },
+      "lineaSepoliaTestnet": {
+        "chainId": 59141,
+        "name": "Linea Sepolia test network",
+        "currency": "ETH",
+        "explorerUrl": "https://sepolia.lineascan.build",
+        "rpcUrl": "https://rpc.sepolia.linea.build",
+        "publicClientAddress": "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+        "image": "https://lineascan.build/images/svg/brands/main.svg?v=24.4.2.0"
+      },
+      "XDCApothemTestnet": {
+        "chainId": 51,
+        "name": "XDC TestNet",
+        "currency": "XDC",
+        "explorerUrl": "https://explorer.apothem.network/",
+        "rpcUrl": "https://rpc.apothem.network",
+        "publicClientAddress": "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe2KDAtPElT99WYln7tyeQPlPCiBWaRfRA_guAL0HImJWBcRympM_r5VBSiOR29zFpKIU&usqp=CAU"
+      },
+      "liskSepoliaTestnet": {
+        "chainId": 4202,
+        "name": "Lisk Sepolia Testnet",
+        "currency": "ETH",
+        "explorerUrl": "https://sepolia-blockscout.lisk.com",
+        "rpcUrl": "https://rpc.sepolia-api.lisk.com",
+        "publicClientAddress": "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRan6D0dfiYmx2sv4kUPsFkfUDxYUWEuuA_dLJWgPm8Q&s"
+      },
+      "KakarotTestnet": {
+        "chainId": 1802203764,
+        "name": "Kakarot Sepolia",
+        "currency": "ETH",
+        "explorerUrl": "https://sepolia.kakarotscan.org",
+        "rpcUrl": "https://sepolia-rpc.kakarot.org",
+        "publicClientAddress": "0x874303B788c8A13a39EFA38ab6C3b77cd4578129",
+        "image": "https://assets-global.website-files.com/6464a063474b57e2c4e03b61/64a20e2749d92613acf4fd1b_Logo%20dark.svg"
+      },
+      "MainnetzTestnet": {
+        "chainId": 9768,
+        "name": "MainnetZ Testnet",
+        "currency": "NetZ",
+        "explorerUrl": "https://testnet.mainnetz.io/",
+        "rpcUrl": "https://testnet-rpc.mainnetz.io",
+        "publicClientAddress": "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+        "image": "https://assets.coingecko.com/coins/images/33947/large/zcM8MEO5_400x400.png?1703537595"
+      },
+      "MoonbaseAlphaTestnet": {
+        "chainId": 1287,
+        "name": "moonbase-alphanet",
+        "currency": "DEV",
+        "explorerUrl": "https://moonbase.moonscan.io/",
+        "rpcUrl": "https://rpc.testnet.moonbeam.network",
+        "publicClientAddress": "0x874303B788c8A13a39EFA38ab6C3b77cd4578129",
+        "image": "https://moonbase.moonscan.io/assets/moonbase/images/svg/logos/chain-light.svg?v=24.6.1.0"
+      },
+      "FhenixTestnet": {
+        "chainId": 8008135,
+        "name": "Fhenix Helium",
+        "currency": "tETH",
+        "explorerUrl": "https://explorer.helium.fhenix.zone",
+        "rpcUrl": "https://api.helium.fhenix.zone/",
+        "publicClientAddress": "0x59D8C9591dB7179c5d592c5bCD42694021885aFC",
+        "image": "https://media.licdn.com/dms/image/D4D0BAQFtUjFKqv_DJA/company-logo_200_200/0/1695715998703/fhenix_logo?e=2147483647&v=beta&t=U2cvAqKuWeEqE5Cb4HgyuBmVTUcBuZvsDi0JdivU3nw"
+      },
+      "CoreTestnet": {
+        "chainId": 1115,
+        "name": "Core Blockchain Testnet",
+        "currency": "tCORE",
+        "explorerUrl": "https://scan.test.btcs.network",
+        "rpcUrl": "https://rpc.test.btcs.network",
+        "publicClientAddress": "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+        "image": "https://scan.test.btcs.network/images/icon.png"
+      },
+      "MantleTestnet": {
+        "chainId": 5003,
+        "name": "Mantle Sepolia",
+        "currency": "MNT",
+        "explorerUrl": "https://sepolia.mantlescan.xyz/",
+        "rpcUrl": "https://rpc.sepolia.mantle.xyz",
+        "publicClientAddress": "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+        "image": "https://www.mantle.xyz/logo-light.svg"
+      },
+      "CronosTestnet": {
+        "chainId": 338,
+        "name": "Cronos Testnet",
+        "currency": "TCRO",
+        "explorerUrl": "https://explorer.cronos.org/testnet",
+        "rpcUrl": "https://evm-t3.cronos.org",
+        "publicClientAddress": "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+        "image": "https://cryptologos.cc/logos/cronos-cro-logo.svg?v=032"
+      },
+      "CronosZkEvmTestnet": {
+        "chainId": 282,
+        "name": "Cronos zkEVM Testnet",
+        "currency": "zkTCRO",
+        "explorerUrl": "https://explorer.zkevm.cronos.org/testnet",
+        "rpcUrl": "https://testnet.zkevm.cronos.org",
+        "publicClientAddress": "0x3140D461c928381FdA7EFe13e0a4cDfC1B4eE540",
+        "image": "https://docs.cronos.org/~gitbook/image?url=https%3A%2F%2F1786307500-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FqXsIo4b4WtOTfICyOIxa%252Ficon%252FjttFGLyNrcsRyiavSGOl%252FCGzQIEVX_400x400.png%3Falt%3Dmedia%26token%3D9955a6fa-7d27-48a0-bc9d-534e107668d8&width=32&dpr=2&quality=100&sign=3cf5e6d3&sv=1"
+      },
+      "ZksyncEraSepoliaTestnet": {
+        "chainId": 300,
+        "name": "ZKsync Sepolia Testnet",
+        "currency": "ETH",
+        "explorerUrl": "https://sepolia.explorer.zksync.io",
+        "rpcUrl": "https://sepolia.era.zksync.dev",
+        "publicClientAddress": "0xAaA666CE51E4c4dcB50781d4F84461e267392fC9",
+        "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAOVBMVEVHcEzz8/Py8vLy8vLy8vL29vbi4uKCgoI/Pz9aWlr6+vrZ2dlnZ2cAAACioqKbm5sjIyO7u7vx8fEHp9RtAAAAE3RSTlMATtH9///////////////////NLBPW6gAAALRJREFUeAGN0wUSAyEQBEBscf//Y5M5auNQmZKTxkUIqbT5Ea3k3cw2Uqg9KqG3prUwh/yH9PxHH0jW0cOcpSfCfIiMMXgoI6VcQiTkwhISMcKKrw1JF5YMBcI4jEvFq/WBdkbHO1oWxgY2fJNpnb+AeX30dhdKz6IWzS7tA0MYnS0neg4I80ytvBpPhRGpftnCq2WgIYoUY4C9Ll/YLt9+4c9bts8Z9d706WjO86HeXocpxQ06RxKNJbAEDwAAAABJRU5ErkJggg=="
+      }
     }
   }
 }
