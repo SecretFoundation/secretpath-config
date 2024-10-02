@@ -326,6 +326,15 @@
         "rpcUrl": "https://sepolia.era.zksync.dev",
         "publicClientAddress": "0xAaA666CE51E4c4dcB50781d4F84461e267392fC9",
         "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAOVBMVEVHcEzz8/Py8vLy8vLy8vL29vbi4uKCgoI/Pz9aWlr6+vrZ2dlnZ2cAAACioqKbm5sjIyO7u7vx8fEHp9RtAAAAE3RSTlMATtH9///////////////////NLBPW6gAAALRJREFUeAGN0wUSAyEQBEBscf//Y5M5auNQmZKTxkUIqbT5Ea3k3cw2Uqg9KqG3prUwh/yH9PxHH0jW0cOcpSfCfIiMMXgoI6VcQiTkwhISMcKKrw1JF5YMBcI4jEvFq/WBdkbHO1oWxgY2fJNpnb+AeX30dhdKz6IWzS7tA0MYnS0neg4I80ytvBpPhRGpftnCq2WgIYoUY4C9Ll/YLt9+4c9bts8Z9d706WjO86HeXocpxQ06RxKNJbAEDwAAAABJRU5ErkJggg=="
+      },
+      "edeXaTestnet": {
+        "chainId": 1995,
+        "name": "edeXa Testnet",
+        "currency": "EDX",
+        "explorerUrl": "https://explorer.testnet.edexa.com/",
+        "rpcUrl": "https://testnet.edexa.com/rpc",
+        "publicClientAddress": "0x9Bb2D52521Bd93481106D7C35787BD33ceAbb836",
+        "image": ""
       }
     }
   }
