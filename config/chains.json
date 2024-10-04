@@ -150,9 +150,9 @@
       "polygonTestnet": {
         "chainId": 80002,
         "name": "Polygon Amoy Testnet",
-        "currency": "MATIC",
-        "explorerUrl": "https://amoy.polygonscan.com/",
-        "rpcUrl": "https://rpc-amoy.polygon.technology/",
+        "currency": "POL",
+        "explorerUrl": "https://amoy.polygonscan.com",
+        "rpcUrl": "https://rpc-amoy.polygon.technology",
         "publicClientAddress": "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
         "image": "https://assets-global.website-files.com/637e2b6d602973ea0941d482/63e26c8a3f6e812d91a7aa3d_Polygon-New-Logo.png"
       },
