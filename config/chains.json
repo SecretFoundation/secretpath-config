@@ -181,7 +181,7 @@
         "explorerUrl": "https://sepolia-explorer.base.org",
         "rpcUrl": "https://sepolia.base.org",
         "publicClientAddress": "0xfaFCfceC4e29e9b4ECc8C0a3f7df1011580EEEf2",
-        "image": "https://sepolia.basescan.org/images/svg/brands/main.svg?v=24.4.4.9"
+        "image": "https://www.ankr.com/rpc/static/media/base.dd3b09e7.png"
       },
       "berachainTestnet": {
         "chainId": 80085,
