@@ -300,6 +300,15 @@
         "publicClientAddress": "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
         "image": "https://www.mantle.xyz/logo-light.svg"
       },
+      "SeiDevnet": {
+        "chainId": 713715,
+        "name": "Sei Devnet",
+        "currency": "SEI",
+        "explorerUrl": "https://seistream.app",
+        "rpcUrl": "https://evm-rpc-arctic-1.sei-apis.com",
+        "publicClientAddress": "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+        "image": "https://devnet.seistream.app/_next/image?url=https%3A%2F%2Fgithub.com%2Fstakeme-team%2Fcontributing-projects%2Fraw%2Fmaster%2Ffiles%2Fsei-logo.png&w=128&q=75"
+      },
       "CronosTestnet": {
         "chainId": 338,
         "name": "Cronos Testnet",
