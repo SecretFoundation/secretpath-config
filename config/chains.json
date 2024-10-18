@@ -300,6 +300,15 @@
         "publicClientAddress": "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
         "image": "https://www.mantle.xyz/logo-light.svg"
       },
+      "GnosisTestnet": {
+        "chainId": 10200,
+        "name": "Gnosis Chiado Testnet",
+        "currency": "XDAI",
+        "explorerUrl": "https://gnosis-chiado.blockscout.com",
+        "rpcUrl": "https://rpc.chiadochain.net",
+        "publicClientAddress": "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
+        "image": "https://logowik.com/content/uploads/images/gnosis5401.logowik.com.webp"
+      },
       "SeiDevnet": {
         "chainId": 713715,
         "name": "Sei Devnet",
