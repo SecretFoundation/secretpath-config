@@ -252,7 +252,7 @@
         "currency": "ETH",
         "explorerUrl": "https://blockscout-kkrt-sepolia.karnot.xyz/",
         "rpcUrl": "https://sepolia-rpc.kakarot.org",
-        "publicClientAddress": "0xEAe7aC0A51a0441D71A1Ee21005363B36f16EffC",
+        "publicClientAddress": "0x59f86F641313a7c6Dc6aA618C01261161DC6057e",
         "image": "https://assets-global.website-files.com/6464a063474b57e2c4e03b61/64a20e2749d92613acf4fd1b_Logo%20dark.svg"
       },
       "MainnetzTestnet": {
