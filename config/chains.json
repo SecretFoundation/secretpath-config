@@ -44,7 +44,7 @@
         "explorerUrl": "https://explorer.arbitrum.io",
         "rpcUrl": "https://arbitrum-mainnet.infura.io",
         "publicClientAddress": "0xfaFCfceC4e29e9b4ECc8C0a3f7df1011580EEEf2",
-        "image": "https://arbiscan.io/images/svg/brands/arbitrum.svg?v=1.5"
+        "image": "https://cryptologos.cc/logos/arbitrum-arb-logo.png"
       },
       "avalancheMainnet": {
         "chainId": 43114,
@@ -116,7 +116,7 @@
         "explorerUrl": "https://blockscout.lisk.com",
         "rpcUrl": "https://rpc.api.lisk.com",
         "publicClientAddress": "0x8EaAB5e8551781F3E8eb745E7fcc7DAeEFd27b1f",
-        "image": "https://cryptologos.cc/logos/lisk-lsk-logo.png?v=032"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC0LFtd68PwMwwhVaVGA4Go_NzW6-7tIT7xA&s"
       },
       "MainnetzMainnet": {
         "chainId": 2016,
@@ -172,7 +172,7 @@
         "explorerUrl": "https://sepolia.arbiscan.io",
         "rpcUrl": "https://sepolia-rollup.arbitrum.io/rpc",
         "publicClientAddress": "0xfaFCfceC4e29e9b4ECc8C0a3f7df1011580EEEf2",
-        "image": "https://arbiscan.io/images/svg/brands/arbitrum.svg?v=1.5"
+        "image": "https://cryptologos.cc/logos/arbitrum-arb-logo.png"
       },
       "baseSepoliaTestnet": {
         "chainId": 84532,
@@ -271,7 +271,7 @@
         "explorerUrl": "https://moonbase.moonscan.io/",
         "rpcUrl": "https://rpc.testnet.moonbeam.network",
         "publicClientAddress": "0x874303B788c8A13a39EFA38ab6C3b77cd4578129",
-        "image": "https://moonbase.moonscan.io/assets/moonbase/images/svg/logos/chain-light.svg?v=24.6.1.0"
+        "image": "https://moonbase.subscan.io/_next/image?url=%2Fchains%2Fmoonbase%2Flogo-mini.png&w=256&q=75"
       },
       "FhenixTestnet": {
         "chainId": 8008135,
